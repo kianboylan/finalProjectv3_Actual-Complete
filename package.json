@@ -1,0 +1,35 @@
+{
+  "name": "final-project-v3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0",
+    "mock-req": "^0.2.0",
+    "mock-res": "^0.6.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.6.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.20.0",
+    "server": "^1.0.39",
+    "sinon": "^17.0.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "expect": "^29.7.0",
+    "jest": "^29.7.0",
+    "mocha-prepare": "^0.1.0",
+    "mongo-unit": "^3.3.0"
+  }
+}
