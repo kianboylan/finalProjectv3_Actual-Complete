@@ -7,7 +7,7 @@ const bodyParser = require("body-parser"); //This is used to filter of the body 
 const now = new Date(); // https://www.w3schools.com/js/js_dates.asp
 const date = now.toLocaleDateString();
 const time = now.toLocaleTimeString();
-const mongoAtlasURL = process.env.MONGO_URL || "mongodb+srv://boylankian104:4Un6tMqCvvCGMVQj@cluster0.met6kej.mongodb.net/answer_log_db?retryWrites=true&w=majority&appName=Cluster0"
+const mongoAtlasURL = process.env.MONGO_URL || "MONGODB_ENDPOINT"
 module.exports = app;
 
 app.use(bodyParser.urlencoded({extended: true})) //This parses request bodies in URL-encoded format, allowing for the processing of data from HTML forms that are being submitted.
