@@ -39,7 +39,7 @@ const prompt = async (event) => {
             ]}),
         headers: {
             "content-type": "application/json", //This shows that the information being sent is in JSON format
-            Authorization: "Bearer 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", //API Key required for authorization
+            Authorization: "OPENAI_API_KEY", //API Key required for authorization
         }
      }).then((response) => { //This is ran after the response
         if(response.ok) { //If the response is ran without any problems, it executes the function below. The function below stores the user's 2 recent inputs along with the AI's responses to the inputs, and allocates them to the appropriate field. For example, when the user inputs a prompt, it will be stored next to the "User" label. 
